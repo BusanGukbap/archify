@@ -171,7 +171,7 @@ node bin/archify.mjs validate workflow examples/agent-tool-call.workflow.json --
 | 시각 스타일, 테마, 내보내기 | `S` / `T` / `E` |
 | 확대/축소 및 초기화 | `+` / `-` / `0` |
 
-안정적인 링크로 `#focus=<id>`, `#route=<source>~<target>`, `#lens=<kind>~<kind>` 상태를 복원할 수 있습니다.
+안정적인 링크로 `#focus=<id>`, `#focus=<id>&reach=upstream|downstream`, `#relation=<id>`, `#route=<source>~<target>`, `#lens=<kind>~<kind>` 상태를 복원할 수 있습니다.
 
 ## 설치 옵션
 
